@@ -1,0 +1,31 @@
+{
+	"name": "geolocation",
+	"version": "0.0.1",
+	"description": "Geolocation lib",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepack": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/siddhesh1996/geolocation.git"
+	},
+	"keywords": ["geolocation", "location API", "web location"],
+	"author": {
+		"name": "Siddhesh K",
+		"email": "ksiddhesh96.sk@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/siddhesh1996/geolocation/issues"
+	},
+	"homepage": "https://github.com/siddhesh1996/geolocation#readme",
+	"dependencies": {
+		"nodemon": "^2.0.22",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.4"
+	},
+	"files": ["lib/**/*"]
+}
